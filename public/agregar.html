@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AluraGeek</title>
+
+    <link rel="stylesheet" href="../styles/normalize.css" />
+    <link rel="stylesheet" href="../styles/nav.css" />
+    <link rel="stylesheet" href="../styles/banner.css" />
+    <link rel="stylesheet" href="../styles/productos.css" />
+    <link rel="stylesheet" href="../styles/contacto.css" />
+    <link rel="stylesheet" href="../styles/footer.css" />
+    <link rel="stylesheet" href="../styles/agregar.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&family=Raleway:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <!--? MENU -->
+      <nav class="menu">
+        <div class="menu__logo">
+          <img
+            class="menu__imagen--icono"
+            src="../assets/images/sports-esports-black-24-dp-1.svg"
+            alt=""
+          />
+          <img
+            class="menu__imagen--texto"
+            src="../assets/images/texto.svg"
+            alt=""
+          />
+        </div>
+        <div class="menu__info">
+          <div class="menu__search">
+            <input
+              class="menu__search__input"
+              type="text"
+              placeholder="Que deseas buscar?"
+            />
+            <img
+              class="menu__search__icono"
+              src="../assets/images/icone.svg"
+              alt=""
+            />
+          </div>
+
+          <a class="menu__login" href=""> Menu Administrador</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+
+        <!--? AGREGAR ARTICULO -->
+        <section class="agregar">
+            <h3 class="agregar__titulo">Agregar nuevo producto</h3>
+            <form class="agregar__form" action="">
+                <label class="agregar__form__label" for="url">URL de la imagen</label>
+                <input id="url" class="agregar__form__campo" type="text">
+                <label class="agregar__form__label" for="categorias">Categoria</label>
+                <input id="categorias" class="agregar__form__campo" type="text">
+                <label class="agregar__form__label" for="nombre">Nombre del producto</label>
+                <input id="nombre" class="agregar__form__campo" type="text">
+                <label class="agregar__form__label" for="precio">URL de la imagen</label>
+                <input id="precio" class="agregar__form__campo" type="number">
+                <label class="agregar__form__label" for="descripcion">Descripcion del producto</label>
+                <textarea  id="descripcion" id="" cols="30" rows="5"></textarea>
+                <a class="agregar__form__boton" href="">Agregar producto</a>
+            </form>
+        </section>
+     
+      <!--? CONTACTO -->
+      <section class="contacto">
+        <div class="contacto__info">
+          <div class="contacto__logo">
+            <img
+              class="contacto__logo--icono"
+              src="../assets/images/sports-esports-black-24-dp-1.svg"
+              alt=""
+            />
+            <img
+              class="contacto__logo--texto"
+              src="../assets/images/texto.svg"
+              alt=""
+            />
+          </div>
+          <div class="contacto__menu">
+            <ul class="contacto__menu__lista">
+              <li class="contacto__menu__lista__item">Quienes somos</li>
+              <li class="contacto__menu__lista__item">
+                Política de privacidad
+              </li>
+              <li class="contacto__menu__lista__item">Programa de fidelidad</li>
+              <li class="contacto__menu__lista__item">Nuestras tiendas</li>
+              <li class="contacto__menu__lista__item">
+                Quiero ser franquiciado
+              </li>
+              <li class="contacto__menu__lista__item">Anúncie aquí</li>
+            </ul>
+          </div>
+        </div>
+        <form class="form" action="">
+          <h3 class="form__titulo">Hable con nosotros</h3>
+          <input class="form__campo" type="text" placeholder="Nombre" />
+          <textarea
+            class="form__campo"
+            name=""
+            id=""
+            cols="30"
+            rows="4"
+            placeholder="Escribe tu mensaje"
+          ></textarea>
+          <button class="form__enviar" type="submit">Enviar mensaje</button>
+        </form>
+      </section>
+      <!--? FOOTER -->
+      <footer>
+        <p>Desarrollado por Fulana de Tal</p>
+        <p>2023</p>
+      </footer>
+    </main>
+  </body>
+</html>

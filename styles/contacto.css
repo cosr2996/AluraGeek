@@ -1,0 +1,129 @@
+.contacto {
+  background: var(--azul-10, #eaf2fd);
+}
+
+.contacto__logo {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.contacto__logo--icono {
+  width: 20%;
+}
+.contacto__logo--texto {
+  width: 34%;
+}
+.contacto__menu__lista {
+  padding: 0px;
+  list-style: none;
+  text-align: center;
+  line-height: 40px;
+}
+.contacto__menu__lista__item {
+  list-style: none;
+  color: var(--preto-100, #464646);
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 500;
+}
+.form{
+    padding: 1rem;
+    margin: 0px auto;
+}
+.form__titulo{
+    color: var(--preto-100, #464646);
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.form__campo{
+    width: 95%;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 2px 1px #464646;
+}
+
+.form__enviar{
+    background: var(--azul-100, #2A7AE4);
+    color: var(--preto-branco, #FFF);
+    padding: 12px 16px;
+    border: 1px solid var(--azul-100, #2A7AE4);
+    
+}
+
+/*? responsive */
+
+@media (min-width:768px) {
+  .contacto__logo--icono {
+    width: 40%;
+  }
+  .contacto__logo--texto {
+    width: 60%;
+  }
+  .contacto{
+    margin: 0px auto;
+    width: 95%;
+    padding: 1rem;
+    gap: 2rem;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+   .contacto__info{
+    display: flex;
+    flex-direction: column;
+  
+   }
+   .form{
+    width: 58%;
+   }
+   .contacto__menu__lista{
+    text-align: start;
+   }
+}
+@media (min-width:992px) {
+  .contacto{
+    width: 90%;
+  }
+  .contacto__logo--icono{
+    align-items: start;
+  }
+  .contacto__info{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    gap: 2rem;
+   }
+
+   .contacto__logo{
+    align-items: start;
+   
+    
+    width: 50%;
+    
+   }
+   .contacto__logo--icono {
+    width: 33%;
+    align-items: start;
+    
+    
+  
+  }
+  .contacto__logo--texto {
+    width: 50%;
+  }
+  .form{
+    width: 45%;
+   }
+   .contacto__menu{
+    width: 33%;
+   }
+   .contacto{
+    padding: 4rem;
+   }
+}

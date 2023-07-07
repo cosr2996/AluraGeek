@@ -1,0 +1,87 @@
+.productos {
+    width: 98%;
+    color: var(--preto-100, #464646);
+    font-family: Raleway;
+    margin: 0px auto;
+    margin-bottom:1rem ;
+  }
+  
+  .productos__titulo {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .productos__enlace{
+      display: flex;
+      
+      justify-content: center;
+  }
+  
+  .productos__info{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+  
+  .productos__tarjeta__enlace {
+    color: var(--azul-100, #2a7ae4);
+    font-size: 14px;
+    font-weight: 700;
+  }
+  
+  
+  .productos__enlace--a{
+      color: var(--azul-100, #2A7AE4);
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 14px;
+  }
+  
+  .productos__tarjeta__img{
+      width: 100%;
+  }
+  .productos__tarjeta{
+      width: 45%;
+      line-height: 10px;
+  }
+  .productos__tarjetas{
+      width: 98%;
+      display: flex;
+      
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin: 0px auto;
+      
+  }
+  
+  .productos__tarjeta__precio{
+      color: var(--preto-100, #464646);
+      font-size: 16px;
+      font-weight: 700;
+  }
+  
+  .productos__tarjeta__titulo{
+      font-size: 14px;
+      color: var(--preto-100, #464646);
+      font-weight: 500;
+  
+  }
+  
+  .productos__tarjeta__enlace{
+      color: var(--azul-100, #2A7AE4);
+      font-size: 14px;
+      font-weight: 700;
+      text-decoration: none;
+  }
+
+
+  /*? responsive */
+
+@media (min-width: 768px) {
+  .productos__tarjeta{
+      width:23%;
+      
+  }
+}
+@media (min-width: 992px) {
+}

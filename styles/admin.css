@@ -1,0 +1,90 @@
+.productos {
+  width: 98%;
+  color: var(--preto-100, #464646);
+  font-family: Raleway;
+  margin: 0px auto;
+  margin-bottom: 1rem;
+}
+
+.productos__cabecera {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+  padding-bottom: 2rem;
+}
+
+.productos__cabecera__titulo {
+  color: var(--preto-100, #464646);
+  font-family: Raleway;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.productos__cabecera__boton{
+    display: block;
+    background:  #2A7AE4;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.8rem;
+    color: white;
+    width: 30%;
+}
+
+.productos__titulo {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+}
+.productos__enlace {
+  display: flex;
+
+  justify-content: center;
+}
+
+.productos__tarjeta__img {
+  width: 100%;
+}
+.productos__tarjeta {
+  width: 45%;
+  line-height: 10px;
+}
+.productos__tarjetas {
+  width: 98%;
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0px auto;
+}
+
+.productos__tarjeta__precio {
+  color: var(--preto-100, #464646);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.productos__tarjeta__titulo {
+  font-size: 14px;
+  color: var(--preto-100, #464646);
+  font-weight: 500;
+}
+
+
+.productos__tarjeta__img--icon{
+    position: relative;
+    margin-right: 10px;
+    bottom: 220px;
+    left: 140px;
+    cursor: pointer;
+}
+
+
+/*? responsive */
+
+@media (min-width: 768px) {
+  .productos__tarjeta {
+    width: 23%;
+  }
+}
+@media (min-width: 992px) {
+}
