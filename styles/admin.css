@@ -87,4 +87,7 @@
   }
 }
 @media (min-width: 992px) {
+    .productos__tarjeta {
+        width: 15%;
+      }
 }
